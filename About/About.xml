@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Butchers Can Count Meat</name>
+	<author>Rock5</author>           
+  <url>
+    https://github.com/Rock5/ButchersCanCountMeat
+  </url>
+	<targetVersion>0.18.1722</targetVersion>
+	<description>Allows butcher bills to use the Do Until option.        
+  Includes mod settings to select which types of meat to include in the count.
+
+Requires Huglib
+
+This is version 0.18.0.1</description>
+</ModMetaData>
