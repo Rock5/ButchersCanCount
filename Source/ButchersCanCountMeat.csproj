@@ -35,8 +35,9 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\workshop\content\294100\1181070440\Assemblies\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=1.0.9.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\workshop\content\294100\818773962\Assemblies\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -44,7 +45,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="HugsLib">
-      <HintPath>..\..\..\..\..\workshop\content\294100\1181070440\Assemblies\HugsLib.dll</HintPath>
+      <HintPath>..\..\..\..\..\workshop\content\294100\818773962\Assemblies\HugsLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -60,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ButchersCanCountMeat.cs" />
-    <Compile Include="Patches\Main.cs" />
     <Compile Include="Patches\RecipeWorkerCounter_CanCountProducts_Patch.cs" />
     <Compile Include="Patches\RecipeWorkerCounter_CountProducts_Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

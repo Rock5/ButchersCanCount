@@ -4,6 +4,9 @@ using Verse;
 
 namespace ButchersCanCountMeat.Patches
 {
+	/// <summary>
+	/// Bypasses CanCountProducts and returns true for all butcher bills
+	/// </summary>
 	[HarmonyPatch(typeof(RecipeWorkerCounter), "CanCountProducts")]
 	class RecipeWorkerCounter_CanCountProducts_Patch
 	{
